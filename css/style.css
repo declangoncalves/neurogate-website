@@ -1489,7 +1489,7 @@ Footer light styles
 }
 
 .no-padding.img-2 {
-  background: url(./img/screenshot.PNG) scroll center no-repeat;
+  background: url(../img/screenshot.PNG) scroll center no-repeat;
   background-size: cover;
   position: absolute;
   height: 100%;
