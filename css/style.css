@@ -40,6 +40,11 @@ iframe {
   width: 100%;
 }
 
+@font-face {
+    font-family: asgalt;
+    src: url(Asgalt-Regular.ttf);
+}
+
 ::selection {
   background: #fefac7;
   /* Safari */
@@ -552,8 +557,7 @@ pre:after, pre:before {
 }
 
 .navbar-brand img {
-  width: 250px;
-  height: auto;
+  height: 50px;
 }
 
 /*============================*/
@@ -1485,10 +1489,11 @@ Footer light styles
 }
 
 .no-padding.img-2 {
-  background: url(../img/capture1.png) scroll center no-repeat;
+  background: url(../img/screenshot.png) scroll center no-repeat;
   background-size: cover;
   position: absolute;
   height: 100%;
+  background-position: left top !important;
 }
 
 @media (max-width: 767px) {
