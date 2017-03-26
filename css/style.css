@@ -700,6 +700,14 @@ TOP BARS
   border-radius: 0px;
 }
 
+.screencapture-video{
+    margin-top: 100px;
+    border: solid 3px #e7e7e7;
+    padding: 21px;
+    margin-left: 20px;
+    width: calc(50% - 20px) !important;
+}
+
 .search-close {
   position: absolute;
   right: 9px;
