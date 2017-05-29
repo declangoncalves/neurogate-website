@@ -702,8 +702,8 @@ TOP BARS
 
 .screencapture-video{
     margin-top: 100px;
-    border: solid 3px #e7e7e7;
-    padding: 21px;
+    border: solid 2px #e7e7e7;
+    padding: 0px;
     margin-left: 20px;
     width: calc(50% - 20px) !important;
 }
