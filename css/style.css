@@ -45,6 +45,17 @@ iframe {
     src: url(Asgalt-Regular.ttf);
 }
 
+.neurogate-title {
+    font-family: asgalt;
+    color: #3C98D3;
+    display: inline;
+    vertical-align: middle;
+    margin-top: 16px;
+    font-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+}
+
 ::selection {
   background: #fefac7;
   /* Safari */
@@ -90,7 +101,7 @@ hr {
 }
 
 a {
-  color: #333;
+  color: #2370a3;
   -moz-transition: all 200ms ease-in;
   -o-transition: all 200ms ease-in;
   -webkit-transition: all 200ms ease-in;
@@ -410,8 +421,8 @@ pre:after, pre:before {
 }
 
 .btn-default:hover, .btn-default:focus {
-  background-color: #333;
-  border-color: #333;
+  background-color: #2370a3;
+  border-color: #2370a3;
   color: #fff;
 }
 
@@ -1101,7 +1112,7 @@ MULTI LEVEL DROPDOWN CSS
 #footer {
   background: #111;
   font-size: 0.9em;
-  padding: 80px 0 0;
+  padding: 20px 0 0;
   position: relative;
   clear: both;
 }
@@ -1116,7 +1127,7 @@ MULTI LEVEL DROPDOWN CSS
 }
 
 .footer-col h3:first-letter {
-  border-bottom: 1px solid #bbb;
+  /*border-bottom: 1px solid #bbb;*/
 }
 
 .footer-col p {

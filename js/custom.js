@@ -225,9 +225,9 @@ $(document).ready(function () {
 
 
 
-/***********************************************************
-     * ACCORDION
-     ***********************************************************/
+    /***********************************************************
+         * ACCORDION
+         ***********************************************************/
     $('.panel-ico a[data-toggle="collapse"]').on('click', function () {
         if ($(this).closest('.panel-heading').hasClass('active')) {
             $(this).closest('.panel-heading').removeClass('active');
@@ -236,5 +236,25 @@ $(document).ready(function () {
             $(this).closest('.panel-heading').addClass('active');
         }
     });
-    
- 
+
+
+/***********************************************************
+     * Smooth Scroll
+     ***********************************************************/
+    jQuery(".navbar-nav li a[href^='#']").on('click', function (e) {
+        e.preventDefault();
+        var hash_array = this.hash.split('#');
+        var hash = hash_array[hash_array.length - 1];
+        jQuery('html, body').animate({
+            scrollTop: jQuery('#' + hash).offset().top
+        }, 1000);
+    });
+
+    jQuery(".rev-buttons a[href^='#']").on('click', function (e) {
+        e.preventDefault();
+        var hash_array = this.hash.split('#');
+        var hash = hash_array[hash_array.length - 1];
+        jQuery('html, body').animate({
+            scrollTop: jQuery('#' + hash).offset().top
+        }, 1000);
+    });
