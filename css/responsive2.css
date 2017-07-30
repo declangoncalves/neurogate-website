@@ -1,0 +1,647 @@
+    /* ==============================================
+==================Large Display==============*/
+    
+    @media only screen and (max-width: 1199px) {
+        /*================================================================
+                       start real state page style
+    ==================================================================*/
+        .realState_hero_area .hero_content_wrapper .hero_carousel {
+            width: 540px;
+        }
+        .realState_hero_area .hero_content_wrapper .hero_form {
+            width: 330px;
+        }
+        .realState_hero_area .hero_form ul input,
+        .realState_hero_area .hero_form ul .nice-select {
+            width: 70%;
+        }
+        .realState_hero_area #hero_carousel .owl-prev {
+            left: 0;
+        }
+        .realState_hero_area #hero_carousel .owl-next {
+            right: 0;
+        }
+        .realState_hero_area .single_hero_carousel .carousel_img img {
+            height: 100%;
+        }
+        .realState_hero_area .single_hero_carousel {
+            height: 270px;
+        }
+        .single_feature.pos_relative {
+            padding: 0 0 0 88px;
+        }
+        .agent_section .social_contact i {
+            padding: 12px 20.6px;
+        }
+        .rStateFooter_widget .single_widget.links li {
+            width: 130px;
+        }
+        /*-----------ecomarce page responsive style---------*/
+        .ecommerce_hero_area::before {
+            background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
+            content: "";
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+        .ecommerce_hero_area .hero_content h1 {
+            font-size: 59px;
+            line-height: 70px;
+        }
+        .single_featured {
+            margin-left: 20px;
+            width: 31.93%;
+        }
+        .featured_title {
+            padding-bottom: 49px;
+            padding-left: 55%;
+        }
+        .single_featured .featured_title h4 {
+            width: 90%;
+        }
+        .single_product.pos_relative {
+            width: 21.9%;
+        }
+        /*================================================================
+                       start pricing page style
+        ==================================================================*/
+        .pricing_section h3.section_hedding {
+            width: 45%;
+        }
+        /*================================================================
+                       start pricing_2 page style
+        ==================================================================*/
+        .client_section_v8 h3.section_hedding {
+            width: 80%;
+        }
+        /*================================================================
+                       start team page style
+        ==================================================================*/
+        .team_section .section_text.text-center {
+            width: 39%;
+        }
+        /*================================================================
+                       start FAQ page style
+        ==================================================================*/
+        .faq_section .faq_tab_menu .nav>li {
+            line-height: 20px;
+        }
+        /*================================================================
+                       start career page style
+        ==================================================================*/
+        .image_content_section .content img {
+            height: 300px;
+            margin-right: 70px;
+            width: 300px;
+        }
+    }
+    /*-----992px to 1199px media query-----*/
+    /* ==============================================
+==================Tab Screen==============*/
+    
+    @media only screen and (max-width: 991px) {
+        /*================================================================
+                       start real state page style
+    ==================================================================*/
+        #header10 #navigation>ul.shop_ul {
+            right: 71px;
+            top: 15px;
+        }
+        .realStare_header_top ul.quck_contact li a {
+            padding: 10px 15px;
+            font-size: 15px;
+        }
+        .realState_hero_area .hero_content_wrapper .hero_carousel {
+            width: 50%;
+        }
+        .realState_hero_area .hero_content_wrapper .hero_form {
+            width: 40%;
+        }
+        .realState_hero_area .hero_carousel .single_hero_carousel {
+            display: block;
+        }
+        .realState_hero_area .single_hero_carousel .content,
+        .realState_hero_area .single_hero_carousel .carousel_img {
+            width: 100%;
+        }
+        .realState_hero_area .hero_form>form {
+            padding: 40px 18px;
+        }
+        .realState_hero_area .hero_form button {
+            padding: 9px 12px;
+            width: 175px;
+        }
+        .realState_hero_area .single_hero_carousel .carousel_img {
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            z-index: -1;
+        }
+        .realState_hero_area .single_hero_carousel {
+            height: 255px;
+        }
+        .about_video iframe {
+            height: 405px;
+        }
+        .single_feature.pos_relative {
+            margin-bottom: 30px;
+        }
+        .agent_section_title>p {
+            width: 75%;
+        }
+        .agent_section .single_agent {
+            margin: 0 auto 30px;
+            width: 50%;
+        }
+        .agent_section .social_contact a i {
+            padding: 12px 27.4px;
+        }
+        /*------------ecommerce page responsive style-------------*/
+        #header10 {
+            padding: 10px 0;
+        }
+        .ecommerce_hero_area .hero_content h1 {
+            margin: 0 auto;
+            text-align: center;
+            width: 81%;
+        }
+        .ecommerce_hero_area .hero_content>a {
+            margin: 39px auto 0;
+        }
+        .single_featured {
+            width: 48.63%;
+            margin-bottom: 20px;
+        }
+        .featured_title {
+            padding-left: 59%;
+        }
+        .single_featured:nth-child(3) {
+            margin-left: 0;
+        }
+        .single_product.pos_relative {
+            width: 29.3%;
+        }
+        .product_filtering_area {
+            padding: 6px 0;
+        }
+        /*================================================================
+                       start pricing page style
+        ==================================================================*/
+        .pricing_section.ptb_90 {
+            padding: 60px 0 30px;
+        }
+        .pricing_section h3.section_hedding {
+            width: 65%;
+        }
+        .single_pricing_tbl {
+            margin: 0 auto 50px;
+            width: 50%;
+        }
+        /*================================================================
+                       start pricing_2 page style
+        ==================================================================*/
+        .pricing_tbl2_wrapper .single_pricing_tbl .header h1 {
+            font-size: 50px;
+            line-height: 40px;
+        }
+        .pricing_tbl2_wrapper .single_pricing_tbl .body li {
+            line-height: 52px;
+        }
+        .pricing_tbl2_wrapper .single_pricing_tbl .purchase_btn {
+            padding: 15px 10px;
+        }
+        .client_section_v8 h3.section_hedding {
+            width: 90%;
+        }
+        /*================================================================
+                       start team page style
+        ==================================================================*/
+        .team_section .section_text.text-center {
+            width: 46%;
+        }
+        .cv_drop_section .section_text.text-center {
+            width: 80%;
+        }
+        /*================================================================
+                       start FAQ page style
+        ==================================================================*/
+        .faq_section .general,
+        .faq_section .installation {
+            float: left;
+            width: 48%;
+        }
+        .faq_section .general {
+            margin-right: 4%;
+        }
+        .faq_section .installation.pt_50 {
+            padding-top: 0;
+        }
+        .faq_section .faq_tab_content {
+            margin-left: 0;
+        }
+        /*================================================================
+                       start career page style
+        ==================================================================*/
+        .image_content_section .content img {
+            height: 230px;
+            margin-right: 40px;
+            width: 230px;
+        }
+        .image_content_section .content_text h3 {
+            font-size: 29px;
+            line-height: 35px;
+        }
+    }
+    /*-----768px to 991px media query-----*/
+    /* ==============================================
+    ==================Medium Mobile Screen==============*/
+    
+    @media only screen and (max-width: 767px) {
+        /*================================================================
+                       start real state page style
+        ==================================================================*/
+        .hero_content_wrapper .owl-carousel {
+            z-index: 0;
+        }
+        .realStare_header_top ul.quck_contact li a {
+            padding: 3px 15px;
+        }
+        .realStare_header_top ul>li {
+            float: none;
+        }
+        .realStare_header_top ul li:last-child a {
+            border-right: medium none;
+        }
+        .realStare_header_top ul.quck_contact li.pNumber {
+            background: transparent none repeat scroll 0 0;
+        }
+        .realStare_header_top ul:not(.quck_contact) li a:hover {
+            background: transparent none repeat scroll 0 0;
+            color: #02cd32;
+        }
+        .realState_hero_area .hero_content_wrapper {
+            display: block;
+            height: auto;
+            padding: 50px 0;
+        }
+        .realState_hero_area .hero_content_wrapper .hero_carousel {
+            width: 100%;
+        }
+        .realState_hero_area .hero_content_wrapper .hero_form {
+            margin: 0 auto;
+            width: 80%;
+        }
+        .realState_hero_area .hero_form>form {
+            padding: 40px 37px;
+        }
+        .realState_hero_area .single_hero_carousel .content {
+            padding: 40px 53px 64px;
+        }
+        .realState_hero_area #hero_carousel .owl-next {
+            right: 20px;
+        }
+        .realState_hero_area #hero_carousel .owl-prev {
+            left: 20px;
+        }
+        .recent_listing_section,
+        .rState_about_section,
+        .agent_section {
+            padding: 50px 0;
+        }
+        .recent_listing_section .title {
+            font-size: 30px;
+            padding-bottom: 30px;
+        }
+        .rState_about_section .about_content h3 {
+            font-size: 30px;
+            padding-bottom: 20px;
+        }
+        .about_video iframe {
+            height: 270px;
+            margin-top: 30px;
+        }
+        .rStare_cta_section .cta_content h3 {
+            font-size: 30px;
+            line-height: 33px;
+        }
+        .rStare_cta_section .cta_content a {
+            height: 46px;
+            padding: 9px;
+            width: 160px;
+        }
+        .agent_section_title>p {
+            width: 100%;
+        }
+        .agent_section .agent_section_title h3 {
+            font-size: 30px;
+            line-height: 38px;
+        }
+        .agent_section .single_agent {
+            width: 80%;
+        }
+        .agent_section .social_contact a i{
+            padding: 11px 25.8px;
+        }
+        .rStateFooter_widget .single_widget {
+            margin-bottom: 30px;
+            text-align: left;
+        }
+        /*---------ecommerce page reponsive style---------*/
+        .ecommerce_hero_area .hero_content {
+            height: 460px;
+        }
+        .ecommerce_hero_area .hero_content h1 {
+            font-size: 45px;
+            line-height: 47px;
+            width: 100%;
+        }
+        .ecommerce_hero_area .hero_content>a {
+            padding: 10px 15px;
+            width: 130px;
+        }
+        .product_gallery.ptb_70 {
+            padding: 40px 0;
+        }
+        .product_filtering_area>ul {
+            flex-flow: row wrap;
+            justify-content: flex-start;
+        }
+        .product_filtering_area li {
+            padding: 5px 15px 5px;
+        }
+        .featured_title {
+            width: initial;
+        }
+        .single_featured {
+            margin-bottom: 20px;
+            margin-left: 0;
+            padding: 0 20px !important;
+            width: 100%;
+        }
+        .gallery_wrapper {
+            margin-left: 0;
+        }
+        .single_product.pos_relative {
+            float: none;
+            margin-bottom: 60px;
+            margin-left: 0;
+            width: 100%;
+        }
+        .single_product .img_area img {
+            width: 100%;
+        }
+        /*================================================================
+                       start pricing page style
+        ==================================================================*/
+        .pricing_section h3.section_hedding {
+            width: 100%;
+        }
+        .single_pricing_tbl {
+            width: 80%;
+        }
+        /*================================================================
+                       start pricing_2 page style
+        ==================================================================*/
+        .pricing_tbl2_wrapper .single_pricing_tbl {
+            width: 50%;
+        }
+        .pricing_tbl2_wrapper .single_pricing_tbl:nth-child(2) {
+            border-right: 1px solid #ddd;
+        }
+        .client_section_v8 h3.section_hedding {
+            font-size: 27px;
+            line-height: 37px;
+            width: 100%;
+        }
+        .client_section_v8 .client_logo {
+            flex-flow: row wrap;
+            justify-content: space-between;
+            margin-top: 83px;
+        }
+        .client_section_v8 .client_logo>li {
+            margin-bottom: 30px;
+        }
+        /*================================================================
+                       start team page style
+        ==================================================================*/
+        .team_section.pt_90.pb_60 {
+            padding: 50px 0 30px;
+        }
+        .team_section .section_text.text-center {
+            width: 100%;
+        }
+        .single_team_member {
+            margin: 0 auto 30px;
+            width: 370px;
+        }
+        .cv_drop_section {
+            padding: 50px 0 60px;
+        }
+        .cv_drop_section .section_text.text-center {
+            width: 100%;
+        }
+        /*================================================================
+                       start team_2 page style
+        ==================================================================*/
+        .team_section_2 {
+            padding: 60px 0 20px;
+        }
+        .team_section_2 .single_team_member {
+            margin-bottom: 45px;
+        }
+        /*================================================================
+                       start FAQ page style
+        ==================================================================*/
+        .faq_section.ptb_90 {
+            padding: 50px 0;
+        }
+        .faq_section .general,
+        .faq_section .installation {
+            float: none;
+            width: 100%;
+        }
+        .faq_section .general {
+            margin-right: 0;
+        }
+        .faq_section .installation.pt_50 {
+            padding-top: 50px;
+        }
+        /*================================================================
+                       start FAQ page-2 style
+        ==================================================================*/
+        .search_section .single_search input[type="text"] {
+            width: 327px;
+        }
+        .faq2_section .accordion_wrapper .panel_heading a {
+            padding: 13px 34px;
+        }
+        .faq2_section .accordion_wrapper .panel_heading a::before {
+            left: 12px;
+            top: 12px;
+        }
+        .faq2_section .accordion_wrapper .panel_body {
+            padding: 20px 34px;
+        }
+        /*================================================================
+                       start career style
+        ==================================================================*/
+        .image_content_section .content {
+            display: block;
+        }
+        .image_content_section .content img {
+            height: 260px;
+            margin-right: 0;
+            width: 260px;
+            margin: 0 auto 30px;
+        }
+        .image_content_section {
+            padding: 70px 0 60px;
+        }
+        .opening_section {
+            padding: 50px 0 30px;
+        }
+    }
+    /*-----480px to 767px media query-----*/
+    /* ==============================================
+        ============Small Mobile Display==============*/
+    
+    @media only screen and (max-width: 479px) {
+        .quck_contact {
+            text-align: center;
+        }
+        .realState_hero_area .single_hero_carousel .content {
+            padding: 20px 13px 52px;
+        }
+        .realState_hero_area .hero_content_wrapper .hero_form {
+            width: 100%;
+        }
+        .realState_hero_area .hero_form>form {
+            padding: 40px 18px;
+        }
+        .rState_about_section .about_content h3 {
+            font-size: 26px;
+            line-height: 32px;
+        }
+        .about_video iframe {
+            height: 200px;
+        }
+        .rState_feature_section {
+            padding: 60px 0;
+        }
+        .rStare_cta_section {
+            padding: 50px 0;
+        }
+        .rStare_cta_section .cta_content {
+            display: block;
+            text-align: center;
+        }
+        .rStare_cta_section .cta_content h3 {
+            font-size: 26px;
+            line-height: 27px;
+            margin-bottom: 23px;
+        }
+        .agent_section .single_agent {
+            width: 260px;
+        }
+        .agent_section .social_contact a i{
+            padding: 11px 17.3px;
+        }
+        /*-------------ecommerce page responsive style-----------*/
+        #header10 #navigation>ul.shop_ul {
+            display: none;
+        }
+        .ecommerce_hero_area .hero_content {
+            height: 270px;
+        }
+        .ecommerce_hero_area .hero_content h1 {
+            font-size: 33px;
+            line-height: 33px;
+        }
+        .single_featured .featured_title h4 {
+            font-size: 22px;
+            line-height: 27px;
+        }
+        .featured_title {
+            padding-left: 50%;
+        }
+        /*================================================================
+                       start pricing page style
+        ==================================================================*/
+        .pricing_section h3.section_hedding,
+        .client_section_v8 h3.section_hedding {
+            font-size: 23px;
+            line-height: 30px;
+            padding-bottom: 40px;
+        }
+        .single_pricing_tbl .header {
+            padding: 32px 0;
+        }
+        .single_pricing_tbl .header h1 {
+            font-size: 50px;
+        }
+        .single_pricing_tbl .header h1 span {
+            top: -23px;
+        }
+        .single_pricing_tbl .body li {
+            line-height: 37px;
+        }
+        /*================================================================
+                       start pricing_2 page style
+        ==================================================================*/
+        .pricing_tbl2_wrapper .single_pricing_tbl {
+            border-right: 1px solid #ddd;
+            margin: 0 auto 50px;
+            width: 270px;
+            float: none;
+        }
+        .client_section_v8 {
+            padding: 50px 0 35px;
+        }
+        .client_section_v8 .client_logo {
+            margin-top: 23px;
+        }
+        /*================================================================
+                       start team page style
+        ==================================================================*/
+        .single_team_member {
+            width: 270px;
+        }
+        .single_team_member .member_details {
+            border-top: 1px solid #ddd;
+            padding: 20px 25px;
+        }
+        .cv_drop_section a.drop_cv {
+            padding: 10px 17px;
+            width: 180px;
+        }
+        /*================================================================
+                       start team_2 page style
+        ==================================================================*/
+        .team_section_2 .single_team_member .member_details {
+            border-top: medium none;
+        }
+        /*================================================================
+                       start faq page style
+        ==================================================================*/
+        .faq_section .faq_tab_content .tab-pane h4 {
+            font-size: 22px;
+            padding: 13px 15px;
+        }
+        .faq_section .faq_tab_content .tab_text {
+            padding: 17px 20px 20px;
+        }
+        /*================================================================
+                       start faq page-2 style
+        ==================================================================*/
+        .search_section .single_search input[type="text"] {
+            width: 218px;
+        }
+        .search_section .single_search button {
+            height: 45px;
+            width: 50px;
+        }
+    }
+    /*-----0px to 479px media query-----*/
