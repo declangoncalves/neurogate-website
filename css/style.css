@@ -231,11 +231,120 @@ pre:after, pre:before {
 
 .center-heading h2 {
   margin-bottom: 0;
-  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: -1px;
   color: #000;
   font-size: 30px;
+}
+
+.product-page-header {
+    font-size: 2.5em;
+}
+
+.product-video-clip {
+    width: calc(120% - 30px);
+    margin-right: 30px;
+    margin-left: -20%;
+    vertical-align: middle;
+    margin-bottom: 40px;
+}
+
+.home-learn-more {
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.home-page-top-btn {
+  font-size: 15px !important;
+  padding: 18px 48px !important;
+}
+
+/*#contact {
+  text-align: center;
+}*/
+
+.media-icon {
+    width: 100%;
+    margin-left: 0;
+    -webkit-transition: width 0.3s, margin-left 0.3s; /* Safari */
+    transition: width 0.3s, margin-left 0.3s;
+}
+
+.media-icon:hover {
+    width: 108%;
+    margin-left: -4%;
+    -webkit-transition: width 0.3s, margin-left 0.3s; /* Safari */
+    transition: width 0.3s, margin-left 0.3s;
+}
+
+.news-updates-header {
+    margin-top: 20px;
+}
+
+.news-read-more {
+    color: #3998D6;
+    font-size: 24px;
+    margin-top: 16px;
+    font-weight: 400;
+}
+
+
+.home-learn-more:hover {
+    color: #8ac2e7;
+}
+
+.home-product-textbox {
+    margin-bottom: 25px;
+}
+
+.home-product-header {
+    margin-bottom: 58px;
+    font-weight: 400;
+
+}
+
+.subpage-pagetitle {
+  height: 190px;
+  background: #3998D6;
+}
+
+.subpage-pagetitle-text {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 68px;
+    font-size: 3.2em;
+    margin-bottom: 20px;
+}
+
+.subpage-pagetitle-center-line {
+    width: 160px;
+    height: 1px;
+    border-top: 2px solid #FFF;
+    margin: auto;
+}
+
+.footer-social-icon-list {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 70px;
+}
+
+.footer-social-icon-list li {
+  display: inline;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+
+.footer-social-icon-list li i {
+  color: #666666;
+}
+
+.footer-social-icon-list li:hover i {
+  color: #ffffff;
 }
 
 .center-heading h2 strong {
@@ -1110,9 +1219,9 @@ MULTI LEVEL DROPDOWN CSS
 /************************************************* css for footers****************************************/
 /**footet dark**/
 #footer {
-  background: #111;
+  background: #282828;
   font-size: 0.9em;
-  padding: 20px 0 0;
+  padding: 40px 0 0;
   position: relative;
   clear: both;
 }
@@ -3327,6 +3436,44 @@ ol.breadcrumb li a {
 }
 
 /************team section css here*****/
+.single_team_member {
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+
+.member_details {
+    border-top: 1px solid #ddd;
+    padding: 35px 25px;
+}
+
+.team_section {
+  margin-top: 35px;
+}
+
+.team_section .single_team_member span.title {
+    font-size: 13px;
+    color: #888;
+}
+
+.team_section .single_team_member .social_contact {
+    margin: 17px 0 22px;
+}
+
+.team_section .single_team_member .social_contact>li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.team_section .single_team_member .social_contact>li a {
+    font-size: 15px;
+    color: #888;
+}
+
+.team_section .single_team_member .social_contact>li a:hover {
+    color: #3c98d3;
+}
+
+
 .team-wrap {
   padding: 3px 3px 10px;
   border: 1px solid #eee;
@@ -3595,6 +3742,134 @@ ol.breadcrumb li a {
 .contact-me {
   background-color: #eee;
   padding: 40px 0;
+}
+
+.contact_section .contact_title p.fw_300 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.contact_section .contact_address li {
+    align-items: center;
+    color: #161414;
+    display: flex;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.contact_section .contact_address li i {
+    border: 1px solid #a8a8a8;
+    border-radius: 100%;
+    color: #a8a8a8;
+    height: 40px;
+    line-height: 37px;
+    margin-right: 17px;
+    text-align: center;
+    width: 40px;
+}
+
+.contact_section .contact_form input,
+.contact_section .contact_form select,
+.contact_section .contact_form textarea {
+    box-shadow: none;
+    border: 1px solid #DCDCDC;
+    font-size: 15px;
+    font-weight: 300;
+    height: 40px;
+    padding: 7px 17px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.contact_section .contact_form .nice-select {
+    padding-top: 7px;
+    border-radius: 3px;
+    padding-bottom: 8px;
+}
+
+.contact_section .contact_form input {
+    float: left;
+    margin-right: 15px;
+    width: 48.6%;
+}
+
+.contact_section .contact_form input:nth-child(2n) {
+    margin-right: 0;
+}
+
+.contact_section .contact_form textarea {
+    height: 150px!important;
+    width: 100%;
+    resize: none;
+}
+
+.contact_section .contact_form input:focus,
+.contact_section .contact_form .nice-select:focus,
+.contact_section .contact_form textarea:focus {
+    border-color: #3c98d3;
+    box-shadow: none;
+    outline: none;
+}
+
+.contact_section .contact_form button {
+    background: #3c98d3;
+    border: none;
+    color: #fff;
+    padding: 10px 47px;
+    text-transform: capitalize;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.contact_section .contact_form button:hover {
+    background: #0453d2;
+}
+
+.contactPage_section form input,
+.contactPage_section form textarea {
+    background: #f8f8f8 none repeat scroll 0 0;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+    resize: none;
+    width: 100%;
+}
+
+.contactPage_section form input:focus,
+.contactPage_section form textarea:focus {
+    border-color: #3c98d3;
+}
+
+.contactPage_section form .name,
+.contactPage_section form .email {
+    float: left;
+    width: 48.3%;
+}
+
+.contactPage_section form .name {
+    margin-right: 25px;
+}
+
+.contactPage_section input[type="submit"] {
+    background: #3c98d3 none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    margin: 50px auto 0;
+    width: 180px;
+    padding: 12px 20px;
+    border: none;
+}
+
+.contactPage_section input[type="submit"]:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.contactPage_section {
+    padding: 40px 0 100px;
 }
 
 /**dropcaps**/
