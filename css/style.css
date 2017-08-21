@@ -242,9 +242,8 @@ pre:after, pre:before {
 }
 
 .product-video-clip {
-    width: calc(120% - 30px);
+    width: calc(100% + 50px);
     margin-right: 30px;
-    margin-left: -20%;
     vertical-align: middle;
     margin-bottom: 40px;
 }
@@ -1227,6 +1226,7 @@ MULTI LEVEL DROPDOWN CSS
   font-size: 0.9em;
   padding: 40px 0 0;
   position: relative;
+  text-align: left;
   clear: both;
 }
 
