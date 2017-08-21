@@ -261,6 +261,10 @@ pre:after, pre:before {
   padding: 18px 48px !important;
 }
 
+.footer-link:hover {
+  color: #ffffff !important;
+}
+
 /*#contact {
   text-align: center;
 }*/
@@ -330,7 +334,7 @@ pre:after, pre:before {
   padding-left: 0px;
   margin-top: 20px;
   text-align: left;
-  margin-left: 70px;
+  margin-left: 19%;
 }
 
 .footer-social-icon-list li {
