@@ -248,6 +248,19 @@ pre:after, pre:before {
     margin-bottom: 40px;
 }
 
+@media only screen and (max-width: 994px) {
+  .product-video-clip {
+    width: 100%;
+    margin-top: -30px;
+  }
+
+  .home-page-product-text {
+    margin: 4px 38px 0px 20px !important;
+    width: calc(100% - 70px) !important;
+  }
+
+}
+
 .home-learn-more {
     color: #ffffff;
     font-size: 30px;
@@ -258,6 +271,26 @@ pre:after, pre:before {
 .home-page-top-btn {
   font-size: 15px !important;
   padding: 18px 48px !important;
+}
+
+@media only screen and (max-width: 1140px) {
+  .home-page-top-btn2{
+    margin-left: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .home-page-top-btn, .home-page-caption{
+    display: none !important;
+  }
+
+  .home-page-big-text {
+    font-size: 40px !important;
+    left: 16% !important;
+    line-height: 50px !important;
+    text-align: center;
+    top: 120px !important;
+  }
 }
 
 .footer-link:hover {
@@ -1228,6 +1261,12 @@ MULTI LEVEL DROPDOWN CSS
   position: relative;
   text-align: left;
   clear: both;
+}
+
+@media only screen and (max-width: 762px) {
+  #footer {
+    text-align: center;
+  }
 }
 
 .footer-col h3 {
@@ -4157,6 +4196,8 @@ label span {
     margin-top: 10px;
   }
 }
+
+
 /****clients***/
 #clients-carousel {
   background-color: #424242;
