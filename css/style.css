@@ -293,6 +293,41 @@ pre:after, pre:before {
   }
 }
 
+@media only screen and (max-width: 700px) {
+  .home-page-big-text {
+    font-size: 34px !important;
+    left: calc(30% - 62px)!important;
+    line-height: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .home-page-big-text {
+    font-size: 30px !important;
+    left: calc(23% - 62px)!important;
+    line-height: 35px !important;
+    top: 106px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .home-page-big-text {
+    font-size: 24px !important;
+    left: calc(27% - 62px)!important;
+    line-height: 28px !important;
+    top: 84px !important;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .home-page-big-text {
+    font-size: 19px !important;
+    left: calc(31% - 62px)!important;
+    line-height: 21px !important;
+    top: 67px !important;
+  }
+}
+
 .footer-link:hover {
   color: #ffffff !important;
 }
