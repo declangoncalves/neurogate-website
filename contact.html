@@ -1,4 +1,22 @@
-﻿<!DOCTYPE html>
+﻿<?php 
+if(isset($_POST['submit'])){
+    $to = "zeqicui@live.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $name = $_POST['name'];
+    $subject = "Form submission";
+    $subject2 = "Copy of your form submission";
+    $message = $name . " wrote the following:" . "\n\n" . $_POST['message'];
+    $message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['message'];
+
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
+?>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -98,14 +116,13 @@
                         <p class="sub_title text-center fw_300 pb_75" style="margin-bottom: 30px;">We would love to hear from you.</p>
 
 
-                        <form id="contact" name="contact" method="post" novalidate="novalidate">
-                            <fieldset>
-                                <input type="text" name="name" id="name" placeholder="Name"/>
-                                <input type="email" name="email" id="email" placeholder="Email"/>
-                                <textarea name="message" rows="5" id="message" placeholder="Your Message"></textarea>
-                                <input id="submit" type="submit" name="submit" value="Send Email">
-                            </fieldset>
+                        <form action="" id="contact" name="contact" method="post" novalidate="novalidate">
+                            <input type="text" name="name" id="name" placeholder="Name"/>
+                            <input type="email" name="email" id="email" placeholder="Email"/>
+                            <textarea name="message" rows="5" id="message" placeholder="Your Message"></textarea>
+                            <input id="submit" type="submit" name="submit" value="Submit">
                         </form>
+
                     </div>
                 </div>
             </div>
