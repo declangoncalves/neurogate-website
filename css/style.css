@@ -328,6 +328,7 @@ pre:after, pre:before {
   }
 }
 
+
 .footer-link:hover {
   color: #ffffff !important;
 }
@@ -1301,6 +1302,9 @@ MULTI LEVEL DROPDOWN CSS
 @media only screen and (max-width: 762px) {
   #footer {
     text-align: center;
+  }
+  .footer-neurogate-p {
+    text-align: left;
   }
 }
 
