@@ -108,6 +108,13 @@ a {
   transition: all 200ms ease-in;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -90px;
+    visibility: hidden;
+}
+
 a:hover,
 a:focus {
   color: #3998d6;
