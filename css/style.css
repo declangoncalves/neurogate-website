@@ -3451,7 +3451,38 @@ ul.post-desc li + li {
   text-transform: capitalize;
 }
 
+.show-on-small-screen {
+  display: block;
+}
+
+.hide-on-small-screen {
+  display: none;
+}
+
 @media (max-width: 992px) {
+  .stride-home-title {
+    text-align: center;
+  }
+
+  .stride-home-img {
+    vertical-align: middle;
+    max-width: 100%;
+    z-index: -1;
+    margin-bottom: 0;
+  }
+
+  .hide-on-small-screen {
+    display: none;
+  }
+
+  .show-on-small-screen {
+    display: block;
+  }
+
+  .stride-home-content-description {
+    text-align: center;
+  }
+
   .facts-in {
     margin-bottom: 70px;
   }
