@@ -1303,6 +1303,7 @@ MULTI LEVEL DROPDOWN CSS
   padding: 40px 0 0;
   position: relative;
   text-align: left;
+  margin-top: 80px;
   clear: both;
 }
 
@@ -2337,6 +2338,54 @@ h1.typed-text {
 
 .blue-bg .services-box .services-box-info p {
   color: #eee;
+}
+
+.stride-background {
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+.stride-home-img {
+  vertical-align: middle;
+  max-width: 650px;
+  /* position: absolute; */
+  /* bottom: -600px; */
+  z-index: -1;
+  margin-bottom: -258px;
+}
+
+.stride-home-container {
+  /* max-height: 100px; */
+}
+
+.stride-home-content {
+  margin-top: 40px;
+}
+
+.stride-home-title {
+  margin-bottom: 12px;
+  text-align: left;
+  color: white;
+}
+
+.stride-home-title-underline {
+  border-top: 2px solid white;
+  text-align: left;
+  float: left;
+  width: 126px;
+}
+
+.stride-home-content-description {
+  color: white;
+  text-align: left;
+  margin-top: 44px;
+}
+
+.stride-home-learn-more {
+  color: #ffffff;
+    font-size: 24px;
+    margin-top: 40px;
+    font-weight: 400;
 }
 
 /***special features***/
