@@ -164,9 +164,15 @@
                              data-speed="1000"
                              data-start="1800"
                              data-easing="easeOutExpo">
+<<<<<<< HEAD
                             NeuroGate is an easy-to-use diagnostics system than can be used virtually    <br>
                             anywhere for accurate diagnoses of neurodegenerative diseases
                         </div> -->
+=======
+                            NeuroGate is an easy-to-use analytics system than can be used virtually    <br>
+                            anywhere for accurate capture of motion and generate analytics
+                        </div>
+>>>>>>> 0bf88f62ad9485ef1e4090ba46554f228b3f3f2c
                         <div class="caption sfb rev-buttons tp-resizeme"
                              data-x="50"
                              data-y="280"
@@ -390,6 +396,88 @@
                         </div>
                 </div><!--full wide 2 columns content end-->
 
+<<<<<<< HEAD
+=======
+
+
+                <div id="news" class="text-center">
+
+
+                    <div class="white-bg" style="background: #F8F8F8 !important">
+                        <div class="container">
+
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="center-heading home-product-header">
+                                        <h2 style="color: #282828">News and Updates</h2>
+                                        <span class="center-line"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img class="img-responsive" src="./img/ngate_full.png" alt="">
+                                    <h3 class="news-updates-header">A New Direction</h3>
+                                    <p>November 5th, 2017</p>
+                                    <p>Update: Our application is now called Stride! We are entering beta testing now. Contact us at beta@neurogate.ca if you would like to participate! Over the last few months, we have been very excited...</p>
+                                    <a href="blog.html">
+                                        <h4 class="news-read-more">
+                                            Read More
+                                            <i style="margin-left: 16px" class="fa fa-angle-right" aria-hidden="true"></i>
+                                        </h4>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-responsive" src="./img/imaginecup_world_presentation.jpg" alt="">
+                                    <h3 class="news-updates-header">Imagine Cup Top 4 World Finalists</h3>
+                                    <p>July 27th, 2017</p>
+                                    <p>We are proud to have had the opportunity to represent Canada in the world finals of the Imagine Cup. We are even more grateful for the fact that we placed in the top 4 teams among 54 at the competition...</p>
+                                    <a href="blog.html#worlds">
+                                        <h4 class="news-read-more">
+                                            Read More
+                                            <i style="margin-left: 16px" class="fa fa-angle-right" aria-hidden="true"></i>
+                                        </h4>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-responsive" src="./img/blog/post1head.jpg" alt="">
+                                    <h3 class="news-updates-header">Imagine Cup Canadian National Champions</h3>
+                                    <p>June 11th, 2017</p>
+                                    <p>After over 8 months of preparation, NeuroGate has managed to win the Canadian Championship of the Imagine Cup. Follow us on our journey as we go to represent Canada on the global stage in Seattle...</p>
+                                    <a href="blog.html#canada">
+                                        <h4 class="news-read-more">
+                                            Read More
+                                            <i style="margin-left: 16px" class="fa fa-angle-right" aria-hidden="true"></i>
+                                        </h4>
+                                    </a>
+
+                                </div>
+                                <!--
+                                <div class="col-md-4">
+                                    <img class="img-responsive" src="./img/hack_harvard.jpg" alt="">
+                                    <h3 class="news-updates-header">HackHarvard Microsoft Prize Winners</h3>
+                                    <p>October 26th, 2016</p>
+                                    <p>After 48 hours of gruelling coding and testing, Team NeuroGate was able to win HackHarvard, a Harvard University event in October. This was done by creating a cost-effective way to diagnose Huntington's...</p>
+                                    <a href="blog.html">
+                                        <h4 class="news-read-more">
+                                            Read More
+                                            <i style="margin-left: 16px" class="fa fa-angle-right" aria-hidden="true"></i>
+                                        </h4>
+                                    </a>
+
+                                </div>
+                            -->
+                            </div>
+
+                        </div>
+                    </div>
+                </div><!--full wide 2 columns content end-->
+                
+
+
+>>>>>>> 0bf88f62ad9485ef1e4090ba46554f228b3f3f2c
                 <div id="media" class="text-center">
 
 
