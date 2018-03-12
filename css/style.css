@@ -2342,6 +2342,13 @@ h1.typed-text {
 
 .stride-background {
   overflow: hidden;
+  height: 575px !important;
+  padding-top: 125px;
+}
+
+.stride-background-main {
+  overflow: hidden;
+  height: 500px !important;
   padding-top: 60px;
 }
 
@@ -2378,7 +2385,13 @@ h1.typed-text {
 .stride-home-content-description {
   color: white;
   text-align: left;
-  margin-top: 44px;
+  margin-top: 100px;
+}
+
+.stride-home-content-description-main {
+  color: white;
+  text-align: left;
+  margin-top: 70px;
 }
 
 .stride-home-learn-more {
@@ -2386,6 +2399,35 @@ h1.typed-text {
     font-size: 24px;
     margin-top: 40px;
     font-weight: 400;
+}
+
+
+.stride-body-text {
+  font-size: 18px;
+  line-height: 34px;
+}
+
+.stride-home-img2 {
+  max-width: 100%;
+  max-height: 400px;
+  margin-top: -50px;
+}
+
+.stride-home-img3 {
+  max-width: 100%;
+  max-height: 400px;
+  margin-top: -50px;
+  margin-left: 36px;
+}
+
+.blue-text {
+  color: #3998d6;
+}
+
+.underline-center {
+  text-align: center !important;
+  float: unset;
+  margin-top: 10px;
 }
 
 /***special features***/
@@ -3452,11 +3494,11 @@ ul.post-desc li + li {
 }
 
 .show-on-small-screen {
-  display: block;
+  display: none;
 }
 
 .hide-on-small-screen {
-  display: none;
+  display: block;
 }
 
 @media (max-width: 992px) {
