@@ -3514,6 +3514,10 @@ ul.post-desc li + li {
     overflow: hidden;
   }
 
+  .neurogate-logo-footer {
+    display: none;
+  }
+
   .navbar-static-top {
     padding-left: 10px;
   }
